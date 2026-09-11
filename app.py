@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # Konfigurasi Halaman Dasar
-st.set_page_config(page_title="Versi 1 - IMDB Sentiment", page_icon="🎬")
+st.set_page_config(page_title="IMDB Movie Review Sentiment Analysis v1", page_icon="🎬")
 
 st.title("IMDB Movie Review Sentiment Analysis")
 st.write("**Versi 1:** Pengujian Fitur Inti Klasifikasi Sentimen Teks")
